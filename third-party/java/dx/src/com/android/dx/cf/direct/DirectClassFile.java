@@ -473,7 +473,7 @@ public class DirectClassFile implements ClassFile {
                                          Hex.u4(getMagic0()) +
                                          ") or version (" +
                                          Hex.u2(getMajorVersion0()) + "." +
-                                         Hex.u2(getMinorVersion0()) + ")");
+                                         Hex.u2(getMinorVersion0()) + ") for file: " + filePath);
             }
         }
 
